@@ -335,7 +335,7 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-  color: linear-gradient(120deg, #00d2ff 0%, #3a47d5 100%);
+  color: linear-gradient(120deg, #00d2ff 0%, #3a47d5 10z0%);
   margin: 0.4rem;
   font-size: 2em;
   transition: color 0.3s linear;
