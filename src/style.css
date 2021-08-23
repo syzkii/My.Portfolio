@@ -103,8 +103,8 @@ header .btn {
 /********** section 2 **************/
 
 .section-2 {
-  padding: 8vmin 0vmin;
-  min-height: 530px;
+  padding: 10vmin 2vmin;
+  min-height: 630px;
 }
 
 .section-2 .row .col-md-6 .pray img {
@@ -121,9 +121,9 @@ header .btn {
   top: 7vmin;
   left: -25vmin;
   background: var(--bggradient);
-  border-radius: 40px;
+  border-radius: 20px;
   text-align: left;
-  padding: 4vmin 4vmin 7vmin 5vmin;
+  padding: 4vmin 4vmin 1vmin 5vmin;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   font-family: var(--Rubik);
   z-index: 1;
