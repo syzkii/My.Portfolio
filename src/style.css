@@ -3,7 +3,7 @@
 :root {
   --Snigle-font: "sniglet", cursive;
   --Rubik: "Rubik", cursive;
-  --bggradient: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  --bggradient: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
 }
 
 * {
@@ -318,7 +318,8 @@ footer {
 }
 
 footer .sp {
-  color: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
+
 }
 
 footer input {
@@ -335,13 +336,14 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-  color: linear-gradient(120deg, #00d2ff 0%, #3a47d5 10z0%);
+  color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
+
   margin: 0.4rem;
   font-size: 2em;
   transition: color 0.3s linear;
 }
 footer .column i:hover {
-  color:linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
 }
 
 footer p.gmail {
@@ -358,7 +360,7 @@ footer .column i + i {
   top: 0;
   width: 100%;
   height: 3em;
-  background: linear-gradient(90deg, #00d0ff60 0%, #3a47d557 100%);
+  background: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
   z-index: 9999;
   transition: all 1.5s ease;
 }
