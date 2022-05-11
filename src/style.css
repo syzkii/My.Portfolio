@@ -1,393 +1,401 @@
 @import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap");
-
 :root {
-  --Snigle-font: "sniglet", cursive;
-  --Rubik: "Rubik", cursive;
-  --bggradient: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
-  font-display: swap;
+    --Snigle-font: "sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --bggradient: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
+    font-display: swap;
 }
 
 * {
-  box-sizing: border-box;
-  font-family: var(--Rubik);
-  scroll-behavior: smooth;
-  font-display: swap;
+    box-sizing: border-box;
+    font-family: var(--Rubik);
+    scroll-behavior: smooth;
+    font-display: swap;
 }
 
 html {
-  scroll-behavior: smooth !important;
+    scroll-behavior: smooth !important;
 }
 
 header,
 section {
-  overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header a {
-  font-family: var(--Snigle-font);
-  font-size: 0.9em;
-  color: whitesmoke;
+    font-family: var(--Snigle-font);
+    font-size: 0.9em;
+    color: whitesmoke;
 }
 
 header {
-  background: var(--bggradient);
+    background: var(--bggradient);
 }
 
 header .nav-item:last-child {
-  padding-right: 10.5em;
+    padding-right: 10.5em;
 }
 
 header .nav-item {
-  padding: 1em;
+    padding: 1em;
 }
 
 header .nav-link {
-  font-size: 1.2em;
-  font-weight: bolder;
-  background: whitesmoke;
-  background-size: 200%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: 0.3s ease-out;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    font-size: 1.2em;
+    font-weight: bolder;
+    background: whitesmoke;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s ease-out;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header .navbar-brand {
-  padding-left: 8rem;
-  font-size: 1.8em;
-  color: whitesmoke;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 8rem;
+    font-size: 1.8em;
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 header .nav-link:hover {
-  background-position: -100%;
-  transform: rotate(5deg);
+    background-position: -100%;
+    transform: rotate(5deg);
 }
 
 header .row .col-md-7 {
-  padding: 22vmin 1vmin;
-  padding-bottom: 28vmin;
-  font-family: var(--Rubik);
-  color: whitesmoke;
+    padding: 22vmin 1vmin;
+    padding-bottom: 28vmin;
+    font-family: var(--Rubik);
+    color: whitesmoke;
 }
 
 header .row .col-md-5 {
-  padding: 4.2vmin 1vmin;
+    padding: 4.2vmin 1vmin;
 }
 
 header .row .col-md-5 img {
-  width: 96%;
-  margin-bottom: 90px;
+    width: 96%;
+    margin-bottom: 90px;
 }
 
 header .container .col-md-7 {
-  font-family: "Rubik", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 header .container .col-md-7 h4 {
-  padding: 1vmin;
-  letter-spacing: 1.2px;
+    padding: 1vmin;
+    letter-spacing: 1.2px;
 }
 
 header .btn {
-  border-radius: 30px;
-  margin-top: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    margin-top: 1em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
 
 /********** section 2 **************/
 
 .section-2 {
-  padding: 10vmin 2vmin;
-  min-height: 630px;
+    padding: 10vmin 2vmin;
+    min-height: 630px;
 }
 
 .section-2 .row .col-md-6 .pray img {
-  border-radius: 30px;
+    border-radius: 30px;
 }
 
 .section-2 .row .col-md-6:last-child {
-  position: relative;
+    position: relative;
 }
 
 .section-2 .row .col-md-6 .panel {
-  position: absolute;
-  top: 7vmin;
-  left: -25vmin;
-  background: var(--bggradient);
-  border-radius: 20px;
-  text-align: left;
-  padding: 4vmin 4vmin 1vmin 5vmin;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  font-family: var(--Rubik);
-  z-index: 1;
+    position: absolute;
+    top: 7vmin;
+    left: -25vmin;
+    background: var(--bggradient);
+    border-radius: 20px;
+    text-align: left;
+    padding: 4vmin 4vmin 1vmin 5vmin;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    font-family: var(--Rubik);
+    z-index: 1;
 }
 
 .section-2 .row .col-md-6 .panel h2 {
-  font-weight: bold;
-  padding: 0.4em 0;
-  color: whitesmoke;
-  font-size: 1.4em;
+    font-weight: bold;
+    padding: 0.4em 0;
+    color: whitesmoke;
+    font-size: 1.4em;
 }
 
 .section-2 .row .col-md-6 .panel h3 {
-  color: whitesmoke;
-  font-size: 1.3em;
-  font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 
 .section-2 .row .col-md-6 .panel h3 {
-  color: whitesmoke;
-  font-size: 1.2em;
-  font-weight: bold;
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .section-2 .row .col-md-6 .panel p {
-  color: whitesmoke;
-  font-size: 0.9em;
-  font-weight: lighter;
+    color: whitesmoke;
+    font-size: 0.9em;
+    font-weight: lighter;
 }
+
 
 /********** section 3 **************/
 
 .numbers .rect {
-  position: relative;
-  z-index: 1;
-  background: white;
-  width: 15rem;
-  height: auto;
-  padding-top: 3.5vmin;
-  margin: 2rem;
-  border-radius: 0.5em;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 15rem;
+    height: auto;
+    padding-top: 3.5vmin;
+    margin: 2rem;
+    border-radius: 0.5em;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .numbers .rect h1 {
-  font-size: 4rem;
-  color: tomato;
+    font-size: 4rem;
+    color: tomato;
 }
 
 .numbers .rect p {
-  font-family: var(--Rubik);
-  font-size: 1.5rem;
+    font-family: var(--Rubik);
+    font-size: 1.5rem;
 }
 
 .section-3 {
-  background: #dd2476;
-  background: var(--bggradient);
+    background: #dd2476;
+    background: var(--bggradient);
 }
 
+
 /********** section 4 **************/
+
 .section-4 .container {
-  padding-top: 6vmin;
+    padding-top: 6vmin;
 }
 
 .section-4 .container .secondary-text {
-  font-size: 3vmin;
+    font-size: 3vmin;
 }
 
 .section-4 .card {
-  width: 22em;
-  margin: 1.6em;
-  margin-top: 5vmin;
-  margin-bottom: 10vmin;
-  transition: transform 0.3s ease-in-out;
+    width: 22em;
+    margin: 1.6em;
+    margin-top: 5vmin;
+    margin-bottom: 10vmin;
+    transition: transform 0.3s ease-in-out;
 }
+
 .section-4 .card:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .section-4 .card .card-text {
-  padding: 0.4em;
+    padding: 0.4em;
 }
 
-.section-4 .card-body > a {
-  font-size: 1.3em;
-  box-shadow: 12px 13px 13px 4px rgba(0,0,0,0.65);
-  -webkit-box-shadow: 12px 13px 13px 4px rgba(0,0,0,0.65);
-  -moz-box-shadow: 12px 13px 13px 4px rgba(0,0,0,0.65);
+.section-4 .card-body>a {
+    font-size: 1.3em;
+    box-shadow: 12px 13px 13px 4px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: 12px 13px 13px 4px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 12px 13px 13px 4px rgba(0, 0, 0, 0.65);
 }
+
 
 /********** section 5 **************/
 
 .section-5 {
-  padding-top: 7vmin;
-  padding-bottom: 10vmin;
-  background-position: center;
-  background: var(--bggradient);
-  margin: auto;
+    padding-top: 7vmin;
+    padding-bottom: 10vmin;
+    background-position: center;
+    background: var(--bggradient);
+    margin: auto;
 }
 
 .contact {
-  width: 40%;
-  padding: 4vmin;
-  padding-top: 2vmin;
-  margin-left: 30px;
-  box-sizing: border-box;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-  float: left;
-  border-radius: 25px;
-  background-color: white;
+    width: 40%;
+    padding: 4vmin;
+    padding-top: 2vmin;
+    margin-left: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    float: left;
+    border-radius: 25px;
+    background-color: white;
 }
 
 .contact h2 {
-  color: #666;
-  text-align: center;
-  font-size: 30px;
+    color: #666;
+    text-align: center;
+    font-size: 30px;
 }
+
 .input-field {
-  position: relative;
-  width: 100%;
-  margin-top: 50px;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
 }
+
 .input-field input,
 .input-field textarea {
-  width: 100%;
-  padding: 5px 0;
-  box-sizing: border-box;
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid #666;
-  font-size: 12px;
-  /* color: whitesmoke; */
-  font-weight: 500;
-  resize: none;
+    width: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #666;
+    font-size: 12px;
+    /* color: whitesmoke; */
+    font-weight: 500;
+    resize: none;
 }
+
 .input-field label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 3px 0;
-  pointer-events: none;
-  font-size: 12px;
-  color: #666;
-  font-weight: 700;
-  transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3px 0;
+    pointer-events: none;
+    font-size: 12px;
+    color: #666;
+    font-weight: 700;
+    transition: 0.5s;
 }
-.input-field input:focus + label,
-.input-field textarea:focus + label,
-.input-field input:valid + label,
-.input-field textarea:valid + label {
-  top: -25px;
-  font-size: 14px;
-  padding: 2px 5px;
-  background: #ff006a;
-  color: #fff;
-  border-radius: 4px;
+
+.input-field input:focus+label,
+.input-field textarea:focus+label,
+.input-field input:valid+label,
+.input-field textarea:valid+label {
+    top: -25px;
+    font-size: 14px;
+    padding: 2px 5px;
+    background: #ff006a;
+    color: #fff;
+    border-radius: 4px;
 }
+
 .section-5 .contact .btn {
-  margin-top: 10px;
-  background: #ff006a;
-  color: #fff;
-  padding: 12px 24px;
-  border: none;
-  outline: none;
-  border-radius: 30px;
-  font-weight: 500;
-  font-size: 16px;
-  transition: 0.5s;
+    margin-top: 10px;
+    background: #ff006a;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.5s;
 }
+
 .section-5 .contact .btn:hover {
-  background: #dd2476;
+    background: #dd2476;
 }
 
 .quote {
-  width: 50%;
-  margin-left: auto;
-  margin-right: 40px;
-  padding-top: 10em;
-
-  text-align: center;
-  color: whitesmoke;
-  padding-top: 10em;
-  font-weight: 500;
-  font-size: 16px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 40px;
+    padding-top: 10em;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 10em;
+    font-weight: 500;
+    font-size: 16px;
 }
+
 
 /********** footer **************/
 
 footer {
-  background: rgb(0, 0, 0);
-  overflow-x: hidden;
-  padding: 7vmin 22vmin;
-  padding-bottom: 10px;
+    background: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding: 7vmin 22vmin;
+    padding-bottom: 10px;
 }
 
 footer .sp {
-  color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
-
+    color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
 }
 
 footer input {
-  border: none !important;
+    border: none !important;
 }
 
 footer input::placeholder {
-  color: white !important;
+    color: white !important;
 }
 
 footer .input-group .input-group-text {
-  background: var(--bggradient);
-  border: none;
+    background: var(--bggradient);
+    border: none;
 }
 
 footer .column i {
-  color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
-
-  margin: 0.4rem;
-  font-size: 2em;
-  transition: color 0.3s linear;
+    color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
+    margin: 0.4rem;
+    font-size: 2em;
+    transition: color 0.3s linear;
 }
+
 footer .column i:hover {
-  color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
+    color: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
 }
 
 footer p.gmail {
-  color: #007bff;
-  transition: color 0.3s linear;
+    color: #007bff;
+    transition: color 0.3s linear;
 }
 
-footer .column i + i {
-  padding: 0 0.5em;
+footer .column i+i {
+    padding: 0 0.5em;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 3em;
-  background: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
-  z-index: 9999;
-  transition: all 1.5s ease;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 3em;
+    background: linear-gradient(45deg, #f02fc2 0%, #6094ea 80%);
+    z-index: 9999;
+    transition: all 1.5s ease;
 }
 
-
 #myBtn {
-  display: none;
-  position: fixed;
-  height: 40px;
-  width: 40px;
-  z-index: 100;
-  bottom: 55px;
-  right: 30px;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background-color: rgb(19, 226, 233);
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  padding: 0px;
-  border-radius: 50%;
+    display: none;
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    z-index: 100;
+    bottom: 55px;
+    right: 30px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(19, 226, 233);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 50%;
 }
 
 #myBtn:hover {
-  background-color: #404040;
+    background-color: #404040;
 }
